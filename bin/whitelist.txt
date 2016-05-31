@@ -1,0 +1,2 @@
+/usr/bin/java java -version
+/usr/bin/java ./java -version
