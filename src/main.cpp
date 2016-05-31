@@ -53,7 +53,7 @@ FILE * whitelist_file;
 #ifdef linux
     whitelist_file = fopen ("/etc/whitelist.txt", "r");
 #elif _WIN32
-    whitelist_file = fopen ("%programfiles%\\whitelist\\whitelist.txt", "r");
+    whitelist_file = fopen ("C:\\Program Files\\whitelist\\whitelist.txt", "r");
 #else
     #error Platform not supported
 #endif

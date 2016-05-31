@@ -48,7 +48,7 @@ do
 	fi
 	
 	if [ ! -f "/etc/apparmor.d/usr.bin.whitelist.whitelist" ]; then
-		echo "Please add apparmor config to "/etc/apparmor.d/usr.bin.whitelist" to allow execution of whitelist command"
+		echo "Please add apparmor config to "/etc/apparmor.d/usr.bin.whitelist.whitelist" to allow execution of whitelist command"
 	fi
 	
 done
